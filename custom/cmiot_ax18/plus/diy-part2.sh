@@ -16,3 +16,7 @@ sed -i 's/192.168.1.1/192.168.88.1/g' package/base-files/files/bin/config_genera
 # Modify version
 sed -i 's/R23.11.20/R23.11.20/g' package/addition/default-settings/files/99-default-settings
 
+# Modify default timezone & ntp server
+sed -i 's/UTC/Asia\/Shanghai/g' package/base-files/files/bin/config_generate
+sed -i 's/0.openwrt.pool.ntp.org/0.ntp.aliyun.com/g' package/base-files/files/bin/config_generate
+
