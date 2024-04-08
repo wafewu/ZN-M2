@@ -14,5 +14,5 @@
 sed -i 's/192.168.1.1/192.168.88.1/g' package/base-files/files/bin/config_generate
 
 # Modify version
-sed -i 's/R22.11.11/V22.11.11/g' package/addition/default-settings/files/99-default-settings
+sed -i 's/R23.11.20/R23.11.20/g' package/addition/default-settings/files/99-default-settings
 
